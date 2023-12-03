@@ -47,6 +47,7 @@
     "vite-tsconfig-paths": "^4.2.1"
   },
   "dependencies": {
+    "contentlayer": "^0.3.4",
     "pliny": "^0.1.6"
   }
 }

@@ -1,0 +1,59 @@
+---
+title: coerseIn coerseAtMost coerseAtLeast
+draft: false
+date: "2023-11-23"
+tags: ["kotlin"]
+summary: 범위를 강제하기 위해 사용하는 함수들
+---
+
+# TL;DR
+
+값의 범위를 강제하기 위해서 쓰이는 함수라고 한다.
+coerse라는 단어가 강제로 한다는 뜻이라고 한다.
+
+## coerseIn
+
+해당 함수는 최소값과 최대값을 파라미터로 받는다.
+최소값보다 작은 값이 들어오면 최소값을, 최대값보다 큰 값이 들어오면 최대값을 리턴해준다.
+
+아래는 간단한 테스트 코드이다.
+
+```kotlin
+fun main(){
+    var scan:Scanner = Scanner(System.`in`)
+    var input = scan.nextInt().coerceIn(0, 1)
+    println(input)
+}
+```
+
+Scanner로 정수 5를 받아왔다고 해보자. coerceIn에서 최소값 0과 최대값 1이 있으니, input은 최대값인 1이 되는것이다. 출력 : 1
+
+## coerceAtMost, coerceAtLeast
+
+CoerseIn과 비슷하다. CoerceAtMost는 최소값을 강제하며, CoerceAtLeast는 최대값을 강제한다.
+
+```kotlin
+// coerceAtMost
+
+fun main(){
+    var scan:Scanner = Scanner(System.`in`)
+    var input = scan.nextInt().coerceAtMost(2)
+    println(input)
+}
+
+// input으로 1이 들어왔다고 가정했을 때 최소값은 2이므로 input은 2가 된다.
+// 출력: 2
+```
+
+```kotlin
+// coerceAtLeast
+
+fun main(){
+    var scan:Scanner = Scanner(System.`in`)
+    var input = scan.nextInt().coerceAtLeast(6)
+    println(input)
+}
+
+// input으로 7이 들어왔다고 가정했을 때 최대값은 6이므로 input은 6가 된다.
+// 출력: 6
+```

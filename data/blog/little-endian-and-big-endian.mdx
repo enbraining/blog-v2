@@ -1,0 +1,33 @@
+---
+title: Little-endian and Big-endian
+date: "2023-11-25"
+tags: ["cs"]
+draft: false
+summary:
+---
+
+# 뭔가요?
+
+컴퓨터는 데이터를 저장할 때 Byte 단위로 나눠서 순서대로 저장한다. 이때 저장된 순서에 따라 Little-endian과 Big-endian으로 나뉜다.
+
+## Big-endian
+
+낮은 주소에 데이터의 높은 바이트(MSB. Most Significant Byte)부터 저장한다.
+
+| 주소 | 값   |
+| ---- | ---- |
+| 0000 | 0x12 |
+| 0004 | 0x34 |
+| 0008 | 0x56 |
+| 0012 | 0x78 |
+
+## Little-endian
+
+낮은 주소에 데이터의 낮은 바이트(LSB. Least Significant Byte)부터 저장한다.
+
+| 주소 | 값   |
+| ---- | ---- |
+| 0000 | 0x78 |
+| 0004 | 0x56 |
+| 0008 | 0x34 |
+| 0012 | 0x12 |

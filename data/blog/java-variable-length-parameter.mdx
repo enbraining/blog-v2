@@ -1,0 +1,63 @@
+---
+title: Java Variable Length Parameter
+date: "2023-11-25"
+tags: ["java", "syntax"]
+draft: false
+summary: ...을 보신적이 있나요?
+---
+
+# 시작하며
+
+자바 코드에 ... 이 사용되는 것을 보신적이 있나요? 저런 문법이 다 있나 싶지만 진짜 있답니다.
+가변 인자라는 이름으로 파라미터의 개수가 가변적입니다.
+
+## 사용해보기
+
+다음처럼 파라미터를 더 받고 싶으면 파라미터를 늘리는 이러한 함수도 사용할 수 있습니다.
+
+```java
+public void something(String one){}
+public void something(String one, String two){}
+public void something(String one, String two, String three){}
+```
+
+물론 리스트의 형태로 받을 수도 있죠.
+
+```java
+public void something(String[] strings){}
+public void something(List<String> stringList){}
+
+// VO 등등..
+```
+
+오늘 블로그에서 소개할 가변 파라미터입니다. 파라미터의 개수를 가변적으로 받을 수 있어요.
+
+```java
+public class Main {
+    public static void main(String[] args){
+        something("a");
+        something("a", "b");
+        something("a", "b", "c");
+    }
+
+    public void something(String... strings){
+        System.out.println(strings);
+    }
+}
+```
+
+다른 파라미터가 존재한다면 가변 파라미터를 제일 뒤에 써야합니다.
+
+```java
+public class Main {
+    public static void main(String[] args){
+        something("steve" ,"a");
+        something("mill" ,"a", "b");
+        something("mine", "a", "b", "c");
+    }
+
+    public void something(String name, String... strings){
+        System.out.println(name + " " + strings);
+    }
+}
+```
