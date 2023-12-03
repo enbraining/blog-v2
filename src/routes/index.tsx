@@ -31,16 +31,18 @@ export default component$(() => {
 
       <div>
         <div class="description">
-          <h2>공</h2>
+          <h2>공사장 감성 카페 아님<br/>☕️☕️☕️</h2>
         </div>
         <div class="description">
-          <h2>사</h2>
+          <h2>진짜 정말로 공사중임</h2>
+          <p>2135215 데시벨</p>
         </div>
-        <div class="description">
-          <h2>중</h2>
+        <div class="warning">
         </div>
-        <div class="description">
-          <h2>⚠️</h2>
+      </div>
+
+      <div>
+        <div class="warning">
         </div>
       </div>
     </div>
