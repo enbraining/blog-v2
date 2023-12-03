@@ -1,11 +1,4 @@
-body {
-  padding: 0;
-  margin: 0;
-}
-
 .block {
-  margin: 5px;
-  margin-left: 40px;
   width: 240px;
   background-color: rgb(212, 212, 212);
   border-radius: 12px;
@@ -13,6 +6,10 @@ body {
 }
 
 .rounded-icon {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+
   background-color: white;
   border-radius: 12px;
   display: inline-flex;
@@ -20,15 +17,16 @@ body {
   justify-content: center;
   width: 240px;
   height: 240px;
-  padding: 10px;
-  margin-left: 40px;
 }
 
 .description {
-  width: 240px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+
   background-color: rgb(212, 212, 212);
   border-radius: 12px;
-  padding: 10px;
+  width: 240px;
 }
 
 h2 {
@@ -39,4 +37,37 @@ h2 {
 p {
   color: rgb(86, 86, 86);
   font-size: large;
+}
+
+.boards {
+  display: flex;
+}
+
+.boards:first-child {
+  padding-left: 40px;
+}
+
+.xolving {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+
+  background: rgb(245,144,47);
+  background: linear-gradient(129deg, rgba(245,144,47,1) 0%, rgba(250,76,76,1) 100%);
+  border-radius: 12px;
+  width: 240px;
+  height: 350px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.xolving p {
+  color: rgb(243, 243, 243);
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
 }
