@@ -1,26 +1,26 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
+import matter from 'gray-matter';
+import type Posts from "~/components/post/Posts";
 import styles from "./posts.css?inline";
-
-interface ListItem {
-  id: number;
-  text: string;
-}
 
 export default component$(() => {
   useStylesScoped$(styles);
 
-  const listItems: ListItem[] = [
-    { id: 1, text: 'Item 1' },
-    { id: 2, text: 'Item 2' },
-    { id: 3, text: 'Item 3' },
+  const file = matter.read('./data/blog/code-sample.mdx')
+
+  const listItems: Posts[] = [
+    { title: "asdf", content: file.content, summary: "sadf" },
+    { title: "asdf", content: file.content, summary: "sadf" },
+    { title: "asdf", content: file.content, summary: "sadf" },
+    { title: "asdf", content: file.content, summary: "sadf" },
   ];
 
   return (
     <div class="posts">
         {listItems.map((item) => (
-          <div key={item.id}>
-            <h1>{item.id}</h1>
-            <p>{item.text}</p>
+          <div key={item.title} class="post">
+            <h1>{item.title}</h1>
+            <p>{item.content}</p>
           </div>
         ))}
     </div>
