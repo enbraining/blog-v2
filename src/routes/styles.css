@@ -77,7 +77,7 @@ a {
   margin-bottom: 5px;
   padding: 10px;
   
-  background-image: url('../../public/warning.svg');
+  background-image: url('/warning.svg');
   background-size: cover; /* 배경 이미지 크기 설정 */
   background-repeat: no-repeat; /* 배경 이미지 반복 설정 */
   border-radius: 12px;
