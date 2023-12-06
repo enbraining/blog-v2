@@ -45,7 +45,7 @@ export default component$(() => {
         <div class="warning">
         </div>
         <div class="description blue-color">
-          <a href="https://blog-nine-rouge-40.vercel.app">
+          <a href="https://hervtart.gitbook.io/blog/">
             <h2 class="white-font">임시 블로그</h2>
             <p class="white-font">이동하기</p>
           </a>
