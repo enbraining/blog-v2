@@ -84,3 +84,12 @@ a {
   width: 240px;
   height: 240px;
 }
+
+.blue-color {
+  background: rgb(47,99,245);
+  background: linear-gradient(129deg, rgba(47,99,245,1) 0%, rgba(76,236,250,1) 100%);
+}
+
+.white-font {
+  color: white;
+}

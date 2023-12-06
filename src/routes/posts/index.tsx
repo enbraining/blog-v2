@@ -12,7 +12,6 @@ export default component$(() => {
     { title: "asdf", content: file.content, summary: "sadf" },
     { title: "asdf", content: file.content, summary: "sadf" },
     { title: "asdf", content: file.content, summary: "sadf" },
-    { title: "asdf", content: file.content, summary: "sadf" },
   ];
 
   return (
