@@ -1,5 +1,4 @@
 import { component$ } from "@builder.io/qwik";
-import Avatar from "~/components/icons/avatar";
 import Metadata from "../../data/siteMetadata";
 
 
@@ -10,7 +9,6 @@ export default component$(() => {
       <div class='boards'>
         <div>
           <div class="rounded-icon">
-            <Avatar />
           </div>
           <div class="description">
             <h2>{Metadata.author}</h2>

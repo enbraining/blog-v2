@@ -10,7 +10,8 @@
   margin-bottom: 5px;
   padding: 10px;
 
-  background-color: white;
+  background-image: url("/avatar.png");
+  background-size: cover;
   border-radius: 12px;
   display: inline-flex;
   align-items: center;
