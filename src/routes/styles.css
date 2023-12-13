@@ -1,13 +1,13 @@
 .block {
-  width: 240px;
+  width: 220px;
   background-color: rgb(212, 212, 212);
   border-radius: 12px;
   padding: 10px;
 }
 
 .rounded-icon {
-  margin-left: 5px;
-  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   padding: 10px;
 
   background-image: url("/avatar.png");
@@ -16,18 +16,18 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 240px;
-  height: 240px;
+  width: 220px;
+  height: 220px;
 }
 
 .description {
-  margin-left: 5px;
-  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   padding: 10px;
 
   background-color: rgb(212, 212, 212);
   border-radius: 12px;
-  width: 240px;
+  width: 220px;
 }
 
 h2 {
@@ -36,7 +36,7 @@ h2 {
 }
 
 p {
-  color: rgb(86, 86, 86);
+  color: rgb(106, 106, 106);
   font-size: large;
 }
 
@@ -50,14 +50,14 @@ p {
 }
 
 .xolving {
-  margin-left: 5px;
-  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   padding: 10px;
 
   background: rgb(245,144,47);
   background: linear-gradient(129deg, rgba(245,144,47,1) 0%, rgba(250,76,76,1) 100%);
   border-radius: 12px;
-  width: 240px;
+  width: 220px;
   height: 350px;
 
   display: flex;
@@ -75,16 +75,16 @@ a {
 }
 
 .warning {
-  margin-left: 5px;
-  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   padding: 10px;
   
   background-image: url('/warning.svg');
   background-size: cover; /* 배경 이미지 크기 설정 */
   background-repeat: no-repeat; /* 배경 이미지 반복 설정 */
   border-radius: 12px;
-  width: 240px;
-  height: 240px;
+  width: 220px;
+  height: 220px;
 }
 
 .blue-color {
@@ -102,5 +102,5 @@ a {
 }
 
 .logos * {
-  margin: 5px;
+  margin: 6px;
 }
