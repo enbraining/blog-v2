@@ -41,10 +41,11 @@ p {
 
 .boards {
   display: flex;
+  justify-content: center;
 }
 
 .boards:first-child {
-  padding-left: 40px;
+  padding-left: 0;
 }
 
 .xolving {
