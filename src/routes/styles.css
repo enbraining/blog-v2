@@ -100,3 +100,7 @@ a {
 .white-font {
   color: white;
 }
+
+.logos * {
+  margin: 5px;
+}

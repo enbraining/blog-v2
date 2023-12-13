@@ -1,4 +1,5 @@
 import { component$ } from "@builder.io/qwik";
+import { Github, Linkedin } from "~/components/icons/social/icons";
 import Metadata from "../../data/siteMetadata";
 
 
@@ -13,6 +14,12 @@ export default component$(() => {
           <div class="description">
             <h2>{Metadata.author}</h2>
             <p>{Metadata.description}</p>
+          </div>
+          <div class="description logos">
+            <a href="https://github.com/enbraining"><Github/></a>
+            <a href="https://github.com/enbraining"><Github/></a>
+            <a href="https://linkedin.com/in/enbraining"><Linkedin/></a>
+            <a href="https://linkedin.com/in/enbraining"><Linkedin/></a>
           </div>
         </div>
 
