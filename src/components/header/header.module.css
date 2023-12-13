@@ -13,3 +13,11 @@
 .header {
   margin: 40px;
 }
+
+.hidden {
+  display: none;
+}
+
+.logo:hover .hidden {
+  display: block;
+}
