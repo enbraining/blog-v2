@@ -26,7 +26,7 @@ export default component$(() => {
         <div>
           <div class="description red-color">
             <a href="https://github.com/xolving/">
-              <h2 class="white-font">projects</h2>
+              <h2 class="white-font">프로젝트</h2>
             </a>
           </div>
           <div class="description">
