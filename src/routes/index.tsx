@@ -6,9 +6,8 @@ import Metadata from "../../data/siteMetadata";
 export default component$(() => {
   return (
     <>
-    <div class="inline">
       <div class='boards'>
-        <div>
+        <div class='board'>
           <div class="rounded-icon">
           </div>
           <div class="description">
@@ -23,56 +22,21 @@ export default component$(() => {
           </div>
         </div>
 
-        <div>
-          <div class="description red-color">
-            <a href="https://github.com/xolving/">
-              <h2 class="white-font">프로젝트</h2>
-            </a>
-          </div>
-          <div class="description">
-            <a href="https://github.com/xolving">
-              <h2>xolving</h2>
-              <p>오픈소스 개발 팀</p>
-            </a>
-          </div>
-          <div class="description">
-            <a href="https://github.com/GSM-MSG">
-              <h2>MSG</h2>
-              <p>학교 전공 동아리</p>
-            </a>
-          </div>
-          <div class="description">
-            <a href="https://github.com/gapple-t">
-              <h2>gApple</h2>
-              <p>아이디어 페스티벌</p>
-            </a>
-          </div>
-        </div>
-
-        <div>
-          <div class="description">
+        <div class='posts'>
+          <div class="post">
             <h2>공사장 감성 카페 아님<br/>☕️☕️☕️</h2>
+            <p>공사장이 공사장인 이유를 설명하는 데스크립션입니다!!!<br/>진짜로 공사장이 아닌데요??</p>
           </div>
-          <div class="description">
+          <div class="post">
             <h2>진짜 정말로 공사중임</h2>
-            <p>2135215 데시벨</p>
+            <p>2135215 데시벨<br/>시끄러운 거 좋아하시나요? 전 싫은데요?<br/>싫어!!!!</p>
           </div>
-          <div class="warning">
-          </div>
-        </div>
-
-        <div>
-          <div class="warning">
-          </div>
-          <div class="description blue-color">
-            <a href="https://hervtart.gitbook.io/blog/">
-              <h2 class="white-font">임시 블로그</h2>
-              <p class="white-font">이동하기</p>
-            </a>
+          <div class="post">
+            <h2>공사장 감성 카페 아님<br/>☕️☕️☕️</h2>
+            <p>공사장이 공사장인 이유를 설명하는 데스크립션입니다!!!<br/>진짜로 공사장이 아닌데요??</p>
           </div>
         </div>
       </div>
-    </div>
     </>
   );
 });
