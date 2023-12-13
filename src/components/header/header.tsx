@@ -5,12 +5,10 @@ import styles from "./header.module.css";
 export default component$(() => {
   return (
     <header class={styles.header}>
-      <div class={["container", styles.wrapper]}>
-        <div class="logo">
-          <a href="/" title="qwik">
-            <Logo height={50} width={50} />
-          </a>
-        </div>
+      <div class={styles.logo}>
+        <a href="/" title="qwik">
+          <Logo height={50} width={50} />
+        </a>
       </div>
     </header>
   );
