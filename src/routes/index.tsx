@@ -26,11 +26,26 @@ export default component$(() => {
         <div>
           <div class="description red-color">
             <a href="https://github.com/xolving/">
-              <h2 class="white-font">xolving</h2>
-              <p class="white-font">github source</p>
+              <h2 class="white-font">projects</h2>
             </a>
           </div>
-          <div class="warning">
+          <div class="description">
+            <a href="https://github.com/xolving">
+              <h2>xolving</h2>
+              <p>오픈소스 개발 팀</p>
+            </a>
+          </div>
+          <div class="description">
+            <a href="https://github.com/GSM-MSG">
+              <h2>MSG</h2>
+              <p>학교 전공 동아리</p>
+            </a>
+          </div>
+          <div class="description">
+            <a href="https://github.com/gapple-t">
+              <h2>gApple</h2>
+              <p>아이디어 페스티벌</p>
+            </a>
           </div>
         </div>
 
