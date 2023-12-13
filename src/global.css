@@ -6,7 +6,7 @@
 }
 
 :root {
-  --background: #020516;
+  --background: #011605;
   --text: #dedede;
 }
 
@@ -38,7 +38,7 @@ body {
   margin: 0;
   line-height: inherit;
   font-family: "HakgyoansimWoojuR";
-  background-color: var(--background);
+  background: rgb(1, 8, 29);
   color: var(--text);
 }
 
