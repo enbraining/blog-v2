@@ -1,7 +1,6 @@
 @font-face {
-  font-family: "Dovemayo-Medium";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Medium.woff")
-    format("woff");
+  font-family: 'HakgyoansimWoojuR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -43,7 +42,7 @@ body {
   padding: 0;
   margin: 0;
   line-height: inherit;
-  font-family: "Dovemayo-Medium";
+  font-family: "HakgyoansimWoojuR";
   background-color: var(--background);
   color: var(--text);
 }

@@ -14,17 +14,16 @@ export default component$(() => {
             <h2>{Metadata.author}</h2>
             <p>{Metadata.description}</p>
           </div>
-          <div class="description">
-            <h2>공사 중 ⚠️</h2>
-          </div>
         </div>
 
         <div>
-          <div class="xolving">
-            <a href="https://github.com/xolving"><p>xolving으로 가기</p></a>
+          <div class="description red-color">
+            <a href="https://github.com/xolving/">
+              <h2 class="white-font">xolving</h2>
+              <p class="white-font">github source</p>
+            </a>
           </div>
-          <div class="description">
-            <h2>진짜 공사중<br/>진짜임</h2>
+          <div class="warning">
           </div>
         </div>
 

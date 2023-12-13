@@ -92,6 +92,11 @@ a {
   background: linear-gradient(129deg, rgba(47,99,245,1) 0%, rgba(76,236,250,1) 100%);
 }
 
+.red-color {
+  background: rgb(245, 93, 47);
+  background: linear-gradient(129deg, rgb(225, 90, 56) 0%, rgb(224, 131, 32) 100%);
+}
+
 .white-font {
   color: white;
 }
